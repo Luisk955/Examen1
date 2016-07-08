@@ -1,0 +1,17 @@
+<ion-view view-title="Dashboard">
+  <ion-content class="padding">
+<form class="form-group" ng-submit="product.save()">
+  <input type="text" name="" ng-model="product.product.name" placeholder="Nombre">
+  <input type="text" name="" ng-model="product.product.quantity" placeholder="Cantidad">
+  <input type="text" name="" ng-model="product.product.code" placeholder="Codigo">
+  <input type="text" name="" ng-model="product.product.description" placeholder="Description">
+  <input type="text" name="" ng-model="product.product.price" placeholder="Precio">
+  <input type="text" name="" ng-model="product.product.image" placeholder="Url de la imagen">
+
+
+  <input type="submit" class="button  button-positive" value="Add">
+  </input>
+ <!-- <input ng-click="product.remove()" class="btn btn-default" value="Remove">-->
+</form>
+  </ion-content>
+</ion-view>
